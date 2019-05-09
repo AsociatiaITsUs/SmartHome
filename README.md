@@ -1,5 +1,5 @@
 # Smart home
-The purpose of this project is to build a smart home system based on the latest technologies and give the chance.
+The purpose of this project is to build a open source smart home system based on the latest technologies.
 
 The system shall contain the following components:
   - central gateway
