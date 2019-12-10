@@ -1,0 +1,29 @@
+Project: I2C_Master_Polling
+Converter: Atollic TrueSTUDIO project converter
+Date: 20191104
+
+Post-build step might need some manual actions.
+Warning: MCU BlueNRG-132 matched multiple possible MCUs: [STM32F070CBTx, STM32F070RBTx, STM32F071CBTx, STM32F071CBUx, STM32F071CBYx, STM32F071RBTx, STM32F071VBHx, STM32F071VBTx, STM32F072CBTx, STM32F072CBUx, STM32F072CBYx, STM32F072RBHx, STM32F072RBTx, STM32F072VBHx, STM32F072VBTx, STM32F078CBTx, STM32F078CBUx, STM32F078CBYx, STM32F078RBHx, STM32F078RBTx, STM32F078VBHx, STM32F078VBTx, STM32F091CBTx, STM32F091CBUx, STM32F091RBTx, STM32F091VBTx, STM32F100CBTx, STM32F100RBHx, STM32F100RBTx, STM32F100VBTx, STM32F101CBTx, STM32F101CBUx, STM32F101RBHx, STM32F101RBTx, STM32F101TBUx, STM32F101VBTx, STM32F102CBTx, STM32F102RBTx, STM32F103CBTx, STM32F103CBUx, STM32F103RBHx, STM32F103RBTx, STM32F103TBUx, STM32F103VBHx, STM32F103VBIx, STM32F103VBTx, STM32F105RBTx, STM32F105VBHx, STM32F105VBTx, STM32F107RBTx, STM32F107VBTx, STM32F205RBTx, STM32F205VBTx, STM32F302CBTx, STM32F302RBTx, STM32F302VBTx, STM32F303CBTx, STM32F303RBTx, STM32F303VBTx, STM32F373CBTx, STM32F373RBTx, STM32F373VBHx, STM32F373VBTx, STM32F401CBUx, STM32F401RBTx, STM32F401VBHx, STM32F401VBTx, STM32F410CBTx, STM32F410CBUx, STM32F410RBIx, STM32F410RBTx, STM32F410TBYx, STM32F429BETx, STM32F429BGTx, STM32F429BITx, STM32F439BGTx, STM32F439BITx, STM32F469BETx, STM32F469BGTx, STM32F469BITx, STM32F479BGTx, STM32F479BITx, STM32F746BETx, STM32F746BGTx, STM32F756BGTx, STM32F765BGTx, STM32F765BITx, STM32F767BGTx, STM32F767BITx, STM32F769BGTx, STM32F769BITx, STM32F777BITx, STM32F779BITx, STM32G070CBTx, STM32G070KBTx, STM32G070RBTx, STM32G071CBTx, STM32G071CBUx, STM32G071EBYx, STM32G071GBUx, STM32G071KBTx, STM32G071KBUx, STM32G071RBIx, STM32G071RBTx, STM32G081CBTx, STM32G081CBUx, STM32G081EBYx, STM32G081GBUx, STM32G081KBTx, STM32G081KBUx, STM32G081RBIx, STM32G081RBTx, STM32G431CBTx, STM32G431CBUx, STM32G431CBYx, STM32G431KBTx, STM32G431KBUx, STM32G431MBTx, STM32G431RBIx, STM32G431RBTx, STM32G431VBTx, STM32G441CBTx, STM32G441CBUx, STM32G441CBYx, STM32G441KBTx, STM32G441KBUx, STM32G441MBTx, STM32G441RBIx, STM32G441RBTx, STM32G441VBTx, STM32G473CBTx, STM32G473CBUx, STM32G473MBTx, STM32G473QBTx, STM32G473RBTx, STM32G473VBHx, STM32G473VBIx, STM32G473VBTx, STM32G474CBTx, STM32G474CBUx, STM32G474MBTx, STM32G474QBTx, STM32G474RBTx, STM32G474VBHx, STM32G474VBIx, STM32G474VBTx, STM32GBK1CBTx, STM32H742BGTx, STM32H742BITx, STM32H743BGTx, STM32H743BITx, STM32H750IBKx, STM32H750VBTx, STM32H750XBHx, STM32H753BITx, STM32L010RBTx, STM32L071CBTx, STM32L071KBTx, STM32L071KBUx, STM32L071RBHx, STM32L071RBTx, STM32L071VBTx, STM32L072CBTx, STM32L072CBYx, STM32L072KBUx, STM32L072RBHx, STM32L072RBIx, STM32L072RBTx, STM32L072VBTx, STM32L073CBTx, STM32L073RBHx, STM32L073RBTx, STM32L073VBTx, STM32L081CBTx, STM32L083CBTx, STM32L083RBHx, STM32L083VBTx, STM32L100RBTx, STM32L151CBTx, STM32L151CBUx, STM32L151RBHx, STM32L151RBTx, STM32L151VBHx, STM32L151VBTx, STM32L152CBTx, STM32L152CBUx, STM32L152RBHx, STM32L152RBTx, STM32L152VBHx, STM32L152VBTx, STM32L412CBTx, STM32L412CBUx, STM32L412KBTx, STM32L412KBUx, STM32L412RBIx, STM32L412RBTx, STM32L412TBYx, STM32L422CBTx, STM32L422CBUx, STM32L422KBTx, STM32L422KBUx, STM32L422RBIx, STM32L422RBTx, STM32L422TBYx, STM32L431CBTx, STM32L431CBUx, STM32L431CBYx, STM32L431KBUx, STM32L431RBIx, STM32L431RBTx, STM32L431RBYx, STM32L432KBUx, STM32L433CBTx, STM32L433CBUx, STM32L433CBYx, STM32L433RBIx, STM32L433RBTx, STM32L433RBYx, STM32WB55CCUx, STM32WB55CEUx, STM32WB55CGUx, STM32WB55RCVx, STM32WB55REVx, STM32WB55RGVx, STM32WB55VCYx, STM32WB55VEYx, STM32WB55VGYx]
+Unknown value type "" for id com.atollic.truestudio.common_options.target.fpu on tool com.atollic.truestudio.exe.release.toolchain.as
+Unknown value type "" for id com.atollic.truestudio.common_options.target.interwork on tool com.atollic.truestudio.exe.release.toolchain.as
+Option com.atollic.truestudio.common_options.target.endianess is no longer supported
+Option com.atollic.truestudio.common_options.target.instr_set is no longer supported
+Unknown value type "" for id com.atollic.truestudio.common_options.target.interwork on tool com.atollic.truestudio.exe.release.toolchain.gcc
+Option com.atollic.truestudio.common_options.target.endianess is no longer supported
+No map found for id: None
+Option com.atollic.truestudio.common_options.target.instr_set is no longer supported
+Unknown value type "" for id com.atollic.truestudio.common_options.target.interwork on tool com.atollic.truestudio.exe.release.toolchain.ld
+Option com.atollic.truestudio.common_options.target.endianess is no longer supported
+Option com.atollic.truestudio.common_options.target.instr_set is no longer supported
+No map found for id: com.atollic.truestudio.ld.general.clib
+Unknown value type "" for id com.atollic.truestudio.common_options.target.fpu on tool com.atollic.truestudio.exe.release.toolchain.gpp
+Unknown value type "" for id com.atollic.truestudio.common_options.target.interwork on tool com.atollic.truestudio.exe.release.toolchain.gpp
+Option com.atollic.truestudio.common_options.target.endianess is no longer supported
+Option com.atollic.truestudio.common_options.target.instr_set is no longer supported
+Unknown value type "" for id com.atollic.truestudio.common_options.target.fpu on tool com.atollic.truestudio.exe.release.toolchain.ldcc
+Unknown value type "" for id com.atollic.truestudio.ldcc.general.scriptfile on tool com.atollic.truestudio.exe.release.toolchain.ldcc
+Unknown value type "" for id com.atollic.truestudio.common_options.target.interwork on tool com.atollic.truestudio.exe.release.toolchain.ldcc
+Option com.atollic.truestudio.common_options.target.endianess is no longer supported
+Option com.atollic.truestudio.common_options.target.instr_set is no longer supported
+Option com.atollic.truestudio.secoutput.general.convert is no longer supported
+Option com.atollic.truestudio.secoutput.general.mapfile is no longer supported
